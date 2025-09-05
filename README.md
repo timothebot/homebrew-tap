@@ -1,18 +1,22 @@
-# Timothebot Tap
+# timothebot's Tap
 
-## How do I install these formulae?
+Repository for timothebot's Homebrew formulae.
 
-`brew install timothebot/tap/<formula>`
+## Installation
 
-Or `brew tap timothebot/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "timothebot/tap"
-brew "<formula>"
+```bash
+# Add the tap
+brew tap timothebot/tap
 ```
 
-## Documentation
+### Lacy
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Fast magical cd alternative for lazy terminal navigators
+
+```bash
+# With tap installed
+brew install lacy
+
+# Without tap installed
+brew install timothebot/tap/lacy
+```
