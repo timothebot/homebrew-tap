@@ -15,9 +15,8 @@ class Lacy < Formula
     end
   end
 
-
   def install
-    bin.install "lacy"
+    bin.install Dir["lacy*"].first => "lacy"
   end
 
   test do
