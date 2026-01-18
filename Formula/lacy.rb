@@ -5,25 +5,25 @@ class Lacy < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/timothebot/lacy/releases/download/v0.6.0/lacy-0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "93bbaa2b6f1ac341dc00477aa6374f41e95e6cfd8e92020e654f799776f31e51"
+      url "https://github.com/timothebot/lacy/releases/download/v0.6.1/lacy-0.6.1-x86_64-apple-darwin.tar.gz"
+      sha256 "656dfd13fa56b307cfff3fcf0c3712478bd3250a4988c642c2b9d48c39b95a1e"
     end
 
     on_arm do
-      url "https://github.com/timothebot/lacy/releases/download/v0.6.0/lacy-0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "bbaeecdd1c76eec0f764d019aad41a2c7d86fbec88fedef224026ad95df4b3a0"
+      url "https://github.com/timothebot/lacy/releases/download/v0.6.1/lacy-0.6.1-aarch64-apple-darwin.tar.gz"
+      sha256 "e84d0332192178f48b054b4de99cd159d61eda71623d7b6f0b660abf41720b8f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/timothebot/lacy/releases/download/v0.6.0/lacy-0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a680f7f3a7920b0c55ba563e15ac899006dab6a74ae5d5753929dabbb51567f8"
+      url "https://github.com/timothebot/lacy/releases/download/v0.6.1/lacy-0.6.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a41116241bcbac446efd5aada685113d669d6aec731976a6661b4ba4e1183e8b"
     end
 
     on_arm do
-      url "https://github.com/timothebot/lacy/releases/download/v0.6.0/lacy-0.6.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "76a248eef603d435955d69ebe67e362f5b6a089816f3e061871fbd5f2c3e2b12"
+      url "https://github.com/timothebot/lacy/releases/download/v0.6.1/lacy-0.6.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "29016638bebf4d02ab37339ee38d7123d46497785b92e5d96cd6a29143ff7247"
     end
   end
 
